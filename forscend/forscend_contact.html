@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Forscend | Contact</title>
+    <!-- Logo -->
+    <link rel="icon" type="png" href="logo/f00_ logo_cwb.png" />
+    <!-- CSS file -->
+    <link href="css/01styleReset.css" rel="stylesheet" />
+    <link href="css/02styleNav.css" rel="stylesheet" />
+    <link href="css/03styleBody.css" rel="stylesheet" />
+    <link href="css/04styleButton.css" rel="stylesheet" />
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Accounting Services and IT Advisory in Singapore you can rely on."
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- JavaScript -->
+    <script defer src="js/scriptNav.js"></script>
+    <script defer src="js/scriptGoogle.js"></script>
+  </head>
+  <body>
+    <nav class="navbar01">
+      <section class="navsec01">
+        <div>
+          <a href="forscend_home.html">
+            <img class="nav_logo" src="logo/f60_logo_wwl.png" alt="Forscend" />
+          </a>
+        </div>
+        <ul class="nav_menu">
+          <li class="nav_item"><a href="forscend_home.html">Home</a></li>
+          <li class="nav_item">
+            <a href="forscend_about.html">About</a>
+            <ul class="sub_menu">
+              <li><a href="forscend_about.html#about">About Us</a></li>
+              <li><a href="forscend_about.html#core_values">Core Values</a></li>
+              <li><a href="forscend_about.html#leadership">Leadership</a></li>
+            </ul>
+          </li>
+          <li class="nav_item">
+            <a href="forscend_solutions.html">Solutions</a>
+            <ul class="sub_menu">
+              <li>
+                <a href="forscend_solutions.html#solutions">Our Solutions</a>
+              </li>
+              <li>
+                <a href="forscend_solutions.html#solutions_acc"
+                  >Accounting Solutions</a
+                >
+              </li>
+              <li>
+                <a href="forscend_solutions.html#solutions_it">IT Solutions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav_item" style="display: none">
+            <a href="forscend_careers.html">Careers</a>
+          </li>
+          <li class="nav_item"><a href="forscend_contact.html">Contact</a></li>
+          <li class="nav_item" style="display: none">
+            <a href="forscend_login.html">Log In</a>
+          </li>
+        </ul>
+        <div class="off_menu"></div>
+        <button class="ham_menu">
+          <span class="ham_bar"></span>
+          <span class="ham_bar"></span>
+          <span class="ham_bar"></span>
+        </button>
+      </section>
+    </nav>
+    <section class="page_contact">
+      <div class="inner01">
+        <div class="sub_inner02a">
+          <div class="box01a">
+            <div class="box01_wrd" style="align-items: center">
+              <h1 class="white">Contact Us</h1>
+            </div>
+            <div class="box01_pic02"></div>
+          </div>
+          <div class="box01a">
+            <div class="box01_wrd">
+              <form
+                id="contactForm"
+                class="contact_form"
+                method="POST"
+                novalidate
+              >
+                <div class="box01a">
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="First Name*"
+                    autocomplete="given-name"
+                    required
+                  />
+
+                  <input
+                    type="text"
+                    name="last_name"
+                    placeholder="Last Name*"
+                    autocomplete="family-name"
+                    required
+                  />
+                </div>
+
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone*"
+                  autocomplete="tel"
+                  required
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email*"
+                  autocomplete="email"
+                  required
+                />
+
+                <input
+                  type="text"
+                  name="company"
+                  placeholder="Company Name*"
+                  autocomplete="organization"
+                  required
+                />
+
+                <input
+                  type="text"
+                  name="job_title"
+                  placeholder="Job Title*"
+                  autocomplete="organization-title"
+                  required
+                />
+
+                <select name="enquiry" class="select" required>
+                  <option value="">Type of Enquiry*</option>
+
+                  <option value="Accounting Solutions">
+                    Accounting Solutions
+                  </option>
+
+                  <option value="IT Solutions">IT Solutions</option>
+
+                  <option value="Business Consultation">
+                    Business Consultation
+                  </option>
+
+                  <option value="Other">Other</option>
+                </select>
+
+                <textarea
+                  name="message"
+                  placeholder="Message*"
+                  rows="6"
+                  required
+                ></textarea>
+
+                <button type="submit" id="submitBtn" class="button01_white">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="box01_pic02"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="footsec01">
+        <div class="footinner01">
+          <img
+            src="logo/f50_logo_wwb.png"
+            alt="Forward Suite"
+            width="134.25px"
+            ;
+            height="80px"
+          />
+          <div>
+            <h2 class="white" id="contact">Contact Us</h2>
+            <ul>
+              <li class="white">
+                <span>T</span>
+                <a href="tel: +65 xxxx xxxx">+65 xxxx xxxx</a>
+              </li>
+              <li class="white">
+                <span>E</span>
+                <a
+                  href="mailto: forscend@outlook.com?Subject=Forscend - Contact Us"
+                  >forscend@outlook.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="footsec01">
+        <div class="footinner02">
+          <h6 class="white">Copyright &copy; 2026 Forward Suite</h6>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
