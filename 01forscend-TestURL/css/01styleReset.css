@@ -1,0 +1,120 @@
+/* reset default */
+html {
+  font-size: 18px;
+  line-height: 1.3;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue,
+span.blue {
+  color: #27488e;
+}
+
+h1.blue_c,
+h2.blue_c,
+h3.blue_c,
+h4.blue_c,
+h5.blue_c,
+h6.blue_c {
+  color: #27488e;
+  text-align: center;
+}
+
+h1.c,
+h2.c,
+h3.c,
+h4.c,
+h5.c,
+h6.c {
+  text-align: center;
+}
+
+
+span.light_blue {
+  color: #74B0FF;
+}
+
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+h6.white,
+p.white,
+li.white,
+li.white a,
+li.white span,
+a.white,
+span.white {
+  color: white;
+}
+
+h1.white_c,
+h2.white_c,
+h3.white_c,
+h4.white_c,
+h5.white_c,
+h6.white_c,
+p.white_c,
+li.white_c,
+li.white_c a,
+li.white_c span,
+a.white_c,
+span.white_c {
+  color: white;
+  text-align: center;
+}
+
+/* Tablet View */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1024px) {
+
+  html {
+    font-size: 20px;
+  }
+
+}
+
+/* Desktop View (Big) */
+@media only screen and (min-width: 1580px) {
+
+
+
+}
